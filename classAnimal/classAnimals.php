@@ -69,7 +69,7 @@ public function Move(string $move){
 
 //---------------------------------Methods Destruct-----------------------------------------------
         public function __destruct(){
-            echo "<br>hello";
+            echo "<br>bye";
         }
         
     }
