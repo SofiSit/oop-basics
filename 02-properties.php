@@ -12,7 +12,7 @@ class Mobile {
     public $internalMemory;
 }
 
-$modernMobile = new Mobile();
+$modernMobile = new Mobile($string, $int, $int);
 
 // in OOP and PHP we use the arrow operator ( -> ) for accessing properties
 

@@ -11,8 +11,8 @@ class Mobile
 }
 
 // We can instantitate classes like this
-$modernMobile = new Mobile();
-$oldMobile = new Mobile();
+$modernMobile = new Mobile($string, $int, $int);
+$oldMobile = new Mobile($string, $int, $int);
 
 // we can use var_dump so we can visualize our new class objects
 
